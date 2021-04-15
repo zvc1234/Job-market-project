@@ -1,0 +1,27 @@
+.p-dropdown.p-component {
+    width: 100% !important;
+}
+
+.p-grid.p-fluid {
+    padding: 0 50px;
+}
+
+.container label {
+    color: #fff;
+    font-weight:500;
+    padding: 0 0 5px 5px;
+}
+
+.p-grid.p-fluid label{
+    color: #4cb5e7;
+    
+}
+
+#b{
+    border-color: #4cb5e7;
+}
+
+#b:hover{
+    border-color: #4cb5e7;
+    background: #4cb5e7;
+}

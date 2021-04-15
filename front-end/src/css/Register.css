@@ -1,0 +1,48 @@
+
+input[type=text]{
+    width: 350px;
+}
+
+input[type=password]{
+    width: 350px;
+}
+
+input[type=email]{
+    width: 350px;
+}
+
+#bio{
+    width: 350px;
+    height: 100px;
+}
+h3{
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+#avatar{
+    width: 250px;
+    height: 250px;
+}
+
+#mainregister{
+    display: flex;
+}
+
+#imagesignup{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#addUser {
+    height: 100%;
+    width: 100%;
+    flex: 4;
+    text-align: center;
+}
+

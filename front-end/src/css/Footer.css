@@ -1,0 +1,19 @@
+.footer-style {
+    background-image: linear-gradient(to bottom, #546e7a, #485e69, #3c4f58, #314048, #263238);
+
+    padding: 30px 20px;
+
+
+}
+
+footer {
+    color: #fff;
+    font-family: 'Domine', serif;
+    font-size: 14px; 
+   
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Domine|Lobster');

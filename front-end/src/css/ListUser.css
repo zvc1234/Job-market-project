@@ -1,0 +1,35 @@
+.p-search-users {
+    padding: 5px;
+}
+
+.p-user-list > .p-dataview-content > .p-grid > .p-col-12.p-md-3 
+{
+    display : table;
+    float: left;
+    margin-right : 40px;
+    margin-top : 40px;
+    margin-bottom: 15px;
+    width : 190px;
+    height: 110px;
+    transition: all .2s ease-in-out;
+}
+
+.userElem {
+    width: 120%;
+    border: 1px;
+}
+
+.userElem:hover{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);  
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.p-user-list > .p-dataview-content {
+    border: none;
+    display: flex;
+    background: #f7f7f759 !important;
+    /* border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; */
+    box-shadow: 10px 7px 7px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,49 @@
+/* path.star {
+    fill: #ffe70f !important;
+} */
+
+
+
+svg.widget-svg {
+    width: 30px !important;
+}
+
+.star-container {
+    padding: 0 3px !important;
+}
+
+.content-section.implementation {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li.p-highlight, body .p-tabview.p-tabview-bottom .p-tabview-nav li.p-highlight, body .p-tabview.p-tabview-left .p-tabview-nav li.p-highlight, body .p-tabview.p-tabview-right .p-tabview-nav li.p-highlight {
+    background: #4cb5e7;
+    border: 3px solid #4cb5e7;
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li.p-highlight:hover, body .p-tabview.p-tabview-bottom .p-tabview-nav li.p-highlight:hover, body .p-tabview.p-tabview-left .p-tabview-nav li.p-highlight:hover, body .p-tabview.p-tabview-right .p-tabview-nav li.p-highlight:hover {
+    background: #4cb5e7;
+    border: 3px solid #4cb5e7;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+.p-search-users-container {
+    display: flex;
+}
+
+.p-autocomplete-search {
+    padding: 5px 10px; 
+}
+
+input:focus .p-user-help {
+    display: none;
+}

@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.menu{
+  align-content: left;
+}
+
+.navbar {
+  background-color: dodgerblue;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1 0 auto;
+  padding: var( — space) var( — space) 0;
+  width: 100%;
+}
+
+.site-content::after {
+  content: ‘\00a0’;
+  display: block;
+  margin-top: var( — space);
+  height: 0;
+  visibility: hidden;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.footer-style{
+  background-color: dodgerblue;
+  height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.login-container{
+  width: 300pt;
+  padding: 17px;
+  border-radius: 17px;
+  background-color: dodgerblue;
+  margin: 40px auto;
+}
+
+.sign{
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.register-container{
+  display: inline-block;
+  padding: 17px;
+  border-radius: 17px;
+  background-color: dodgerblue;
+  margin: 40px auto;
+}
+
+h3{
+  color: white;
+}
+
+.p-inputtext {
+  border-radius: 15px !important;
+}
+
+.p-menubar {
+  background-image: inherit !important;
+}
+
+button.p-button.p-component.btnn.p-button-text-only {
+  background: transparent;
+  border: 3px solid #f2653c;
+  border-radius: 20px;
+}
+
+button.p-button.p-component.btnn.p-button-text-only:hover {
+  background: #f2653c;
+  border: 3px solid #f2653c;
+  border-radius: 20px;
+}
+
+button.p-button.p-component.btnn.p-button-text-only:hover .p-button-text {
+  color:black;
+}
+
+
+.p-button-text-only .p-button-text {
+  padding: 5px !important;
+}
+
+.p-button-text {
+  font-family: 'Righteous', cursive;
+  color: black;
+  font-size: 16px;
+}
+
+body .p-inputtext:enabled:hover:not(.p-error) {
+  border-color: #f2653c;
+}
+
+body .p-inputtext:enabled:focus:not(.p-error) {
+  border-color: #f5c88e;
+  outline: 0 none;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Righteous');

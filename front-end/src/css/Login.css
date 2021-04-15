@@ -1,0 +1,36 @@
+
+
+.container{
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #f7cc8c;
+    padding: 50px 0;
+    background: #ffffff59;
+    /* border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; */
+    box-shadow: 10px 7px 7px rgba(0,0,0,0.3);
+}
+
+.p-grid.p-fluid {
+    margin: auto;
+}
+
+.head{
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+
+    
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(0%, -15%);
+}
+

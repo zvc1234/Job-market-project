@@ -1,0 +1,22 @@
+button.p-button.p-component.p-button-icon-only {
+    background: #f2653c;
+    border-color: #f2653c;
+    border: 1px;
+    border-radius: 10px;
+}
+
+
+
+.container-abilities {
+    text-align: center
+}
+
+.content-section.implementation {
+    margin: 1% 28% !important;
+}   
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
